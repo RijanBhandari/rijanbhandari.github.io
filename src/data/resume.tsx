@@ -2,15 +2,15 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon, SparklesIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Hailey Cheng",
-  initials: "HC",
-  url: "https://heilcheng.github.io",
-  location: "Hong Kong",
-  locationLink: "https://www.google.com/maps/place/hongkong",
+  name: "Rijan Bhandari",
+  initials: "RB",
+  url: "https://rijanbhandari.github.io",
+  location: "Rijan Bhandari",
+  locationLink: "https://www.google.com/maps/place/kathmandu",
   description:
-    "A rising junior with research interests in Mathematical Biology and AI for biomedicine. I'm also a software engineer specializing in AI/ML, and I love building fun, meaningful apps with React Native. On the side, I share my journey with over 10,000 followers on Threads and 25,000 on LinkedIn.",
+    "I want to build hard things and push the boundaries of humanity. Currently, I am working on an embedded system that detects bacteria contamination in drinking water as my college major project. I am also teaching myself Python and data science. I love building communities, mentoring, and inspiring young minds.",
   summary:
-    "I'm a Homo sapiens born and raised in Hong Kong. I also spent a year studying in the UK and semesters in the US and France, experiences that opened my mind and shaped how I see the world.\n\nBefore university, I was that kid obsessed with biology and completely hooked on the Olympiad. I loved exploring the mysteries of life. But after countless hours pipetting in the lab, I started to feel burnt out. I realized I loved biology, just not the endless wet lab work.\n\nAt the same time, I discovered the beauty and speed of simulations, where you can explore complex systems without spilling a single drop. One day, I had a lightbulb moment: \"What if I could use math and code to solve big biology questions instead?\" That idea completely changed my path.\n\nAnd so, here I am, merging my love for biology with the power of math and computation.\n\nWhen I'm not coding or solving equations, you'll find me kayaking, playing tennis, or on a mission to hunt down the best ramen and handmade pasta in Hong Kong (I might have tried them all by now). And when it comes to boba, it's always \"No.1\" at Comebuytea.",
+    "Trying to comeup what to write here.",
   avatarUrl: "/me.jpeg",
 
   navbar: [
@@ -19,25 +19,25 @@ export const DATA = {
     { href: "/showcase", icon: SparklesIcon, label: "Showcase" },
   ],
   contact: {
-    email: "haileycheng@proton.me",
-    tel: "+852-XXX-XXX-XXX",
+    email: "rijan4243@gmail.com",
+    tel: "+977-XXX-XXX-XXX",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/heilcheng",
+        url: "https://github.com/rijanbhandari",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/heilcheng",
+        url: "https://linkedin.com/in/rijan-bhandari-102047217",
         icon: Icons.linkedin,
         navbar: true,
       },
 
       email: {
         name: "Send Email",
-        url: "mailto:haileycheng@proton.me",
+        url: "mailto:rijan4243@gmail.com",
         icon: Icons.email,
         navbar: false,
       },
