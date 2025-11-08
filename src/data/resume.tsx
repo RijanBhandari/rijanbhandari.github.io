@@ -8,15 +8,14 @@ export const DATA = {
   location: "Rijan Bhandari",
   locationLink: "https://www.google.com/maps/place/kathmandu",
   description:
-    "I want to build hard things and push the boundaries of humanity. Currently, I am working on an embedded system that detects bacteria contamination in drinking water as my college major project. I am also teaching myself Python and data science. I love building communities, mentoring, and inspiring young minds.",
+    "An engineering student with research interests in computers and human brain. I love building electronics and AI applications. On the side build communities, mentor peers, and inspire young minds to explore and innovate.",
   summary:
     "Trying to comeup what to write here.",
-  avatarUrl: "/me.jpeg",
+  avatarUrl: "/me.jpg",
 
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
-    { href: "/showcase", icon: SparklesIcon, label: "Showcase" },
   ],
   contact: {
     email: "rijan4243@gmail.com",
@@ -46,73 +45,71 @@ export const DATA = {
 
   technicalExperience: [
     {
-      company: "Google DeepMind",
-      href: "https://deepmind.com",
+      company: "Phutung Research Institute",
+      href: "https://phutung.org.np/",
       badges: [],
-      location: "Remote",
-      title: "Open Source Software Developer\nGoogle Summer of Code Participant",
-      logoUrl: "/deepmind.jpg",
-      start: "May 2025",
+      location: "Nepal",
+      title: "Student Research Assistant",
+      logoUrl: "/phutung.jpeg",
+      start: "Dec 2024",
       end: "Present",
       bullets: [
-        "Engineered a scalable model evaluation platform using Python, PyTorch, and Docker, which improved benchmarking efficiency by 15% and supported parallel execution across 5+ academic test suites (e.g., MMLU, HumanEval)",
-        "Designed and deployed a fully automated CI/CD pipeline with GitHub Actions to enforce 95% unit test coverage, guaranteeing reproducible, production-ready builds for a system"
+        "Developing a real-time optoelectronics and mechanical control system for continuous water quality assessment.", 
+        "Building expertise in sensor integration, signal processing, 3d and embedded systems design."
       ],
     },
     {
-      company: "Stealth Startup",
+      company: "iBriz.ai",
       badges: [],
-      href: "#",
+      href: "https://ibriz.ai/",
       location: "Hong Kong",
       title: "Co-Founder & Machine Learning Engineer",
-      logoUrl: "/Stealth.jpeg",
-      start: "November 2024",
-      end: "Present",
+      logoUrl: "/ibriz.avif",
+      start: "Mar 2024",
+      end: "Jul 2024",
       bullets: [
-        "Building next-generation AI products in stealth mode. Details coming soon!",
-        "Leading the development of proprietary deep learning models and scalable infrastructure for confidential projects."
+        "Supported Web3-based product promotion and utilized AI tools for game asset generation."
       ],
     },
     {
-      company: "City University of Hong Kong",
-      href: "https://www.cityu.edu.hk",
+      company: "Sagarmatha Electronics & Information Engineering Students' Society (SEIS)",
+      href: "#",
       badges: [],
-      location: "Hong Kong",
-      title: "Undergraduate Researcher",
-      logoUrl: "/cityuhk.jpg",
-      start: "September 2024",
+      location: "Nepal",
+      title: "President\nVice President\nSocial Media Manager\nExecutive Member",
+      logoUrl: "/seis.png",
+      start: "Jun 2022",
       end: "Present",
       bullets: [
-        "Thesis: Hybrid ODE-Neural Network for Personalized Treatment Prediction",
-        "Engineered a multi-task deep learning model in Python and PyTorch as a computationally efficient surrogate for a complex 15-state ODE system, reducing prediction latency from hours to milliseconds",
-        "Designed the neural network (98% AUC, 91.7% accuracy) and developed an end-to-end MLOps pipeline for data generation (N=1,000), training, and validation, achieving an R² of 0.78 on regression tasks"
+        "Organized and mentored 10+ tech workshops on AI and electronics for undergraduates.",
+        "Lead initiatives to introduce electronics, blockchain, and AI/ML to the undergraduate students."
       ],
     },
   ],
   education: [
     {
-      school: "City University of Hong Kong",
-      href: "https://www.cityu.edu.hk",
-      degree: "Bachelor of Science in Computing Mathematics (GREAT Stream), Minor in Computer Science",
-      logoUrl: "/cityuhk.jpg",
-      start: "2023",
-      end: "2027",
-    },
-    {
-      school: "University of California, Berkeley",
-      href: "https://berkeley.edu",
-      degree: "Exchange Student, Mathematics",
-      logoUrl: "/Berkeley.png",
-      start: "2024",
-      end: "2024",
-    },
-    {
-      school: "Pearson Edexcel A-Levels",
-      href: "https://qualifications.pearson.com",
-      degree: "4A* in Mathematics, Biology, Economics, Chinese\nReceived offers from HKU, CUHK, KCL and Manchester",
-      logoUrl: "/pearson.jpeg",
+      school: "Tribhuwan University - Sagarmatha Engineering College",
+      href: "https://sagarmatha.edu.np/",
+      degree: "Bachelor of Electronics, Communication & Information Engineering",
+      logoUrl: "/sagarmatha.jpg",
       start: "2022",
-      end: "2023",
+      end: "2026",
+    },
+    {
+      school: "Kathmandu Bernhardt SS & College",
+      href: "https://www.bernhardt.edu.np/",
+      degree: "+2 in Science",
+      logoUrl: "/bernhardt.png",
+      start: "2019",
+      end: "2021",
+    },
+    {
+      school: "Gyanodaya Bal Batika Secondary School",
+      href: "https://gyanodaya.edu.np/",
+      degree: "Secondary Education",
+      logoUrl: "/gyanodaya.jpg",
+      start: "2005",
+      end: "2018",
     },
   ],
   projects: [
