@@ -77,7 +77,7 @@ export const DATA = {
       badges: [],
       location: "Nepal",
       title: "President\nVice President\nSocial Media Manager\nExecutive Member",
-      logoUrl: "/seis.jpg",
+      logoUrl: "/Seis.jpg",
       start: "Jun 2022",
       end: "Present",
       bullets: [
