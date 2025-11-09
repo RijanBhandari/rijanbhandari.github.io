@@ -80,12 +80,12 @@ export default async function BlogPage() {
   });
 
   return (
-    <section className="max-w-3xl mx-auto px-4">
+    <section className="max-w-3xl mx-auto px-4 pt-section-md">
       <BlurFade delay={BLUR_FADE_DELAY}>
         <div className="mb-16 text-center">
           <h1 className="font-semibold text-4xl mb-3 tracking-tight">Blog</h1>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            Thoughts on software development, technology, and life in Hong Kong.
+            {metadata['description']}
           </p>
         </div>
       </BlurFade>

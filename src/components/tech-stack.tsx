@@ -41,9 +41,9 @@ const techCategories: TechCategory[] = [
         name: "ML & AI Frameworks",
         items: [
           { name: "PyTorch", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
-          { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
+          // { name: "TensorFlow", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
           { name: "Scikit-learn", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" },
-          { name: "Transformers", logo: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
+          // { name: "Transformers", logo: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
           { name: "NumPy", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
           { name: "Pandas", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
         ]
@@ -207,7 +207,7 @@ export const TechStack = ({ delay = 0 }: TechStackProps) => {
                         <h4 className="text-lg font-semibold text-muted-foreground text-center">
                           {subcategory.name}
                         </h4>
-                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-items-center">
+                        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 justify-items-center">
                           {subcategory.items.map((tech, techIndex) => (
                             <motion.div
                               key={tech.name}
@@ -223,7 +223,7 @@ export const TechStack = ({ delay = 0 }: TechStackProps) => {
                     ))}
                   </div>
                 ) : (
-                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-items-center">
+                  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4 justify-items-center">
                     {category.items?.map((tech, techIndex) => (
                       <motion.div
                         key={tech.name}
