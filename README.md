@@ -58,12 +58,7 @@ npm install
 
 ### 3. Personalize It
 
-**Your Info**: All the personal data (name, description, experience, projects, etc.) is in one place: `src/data/resume.tsx`. Just open it up and replace my info with yours.
-
-**Your Maps**:
-- Change `src\data\resume.tsx` to add your own resume.
-- add blog written in markdown in `content` folder.
-- Look around you will find things modify make your own.
+**Your Info**: All the personal data (name, description, experience, projects, etc.) is in one place: `src/data/resume.tsx`. Just open it up and replace my info with yours. Look around you will find things modify make your own.
 
 ## Quick Start
 
