@@ -8,7 +8,7 @@ export const DATA = {
   location: "Rijan Bhandari",
   locationLink: "https://www.google.com/maps/place/kathmandu",
   description:
-    "An engineering student with research interests in computers and human brain. I love building electronics and AI applications. On the side build communities, mentor peers, and inspire young minds to explore and innovate.",
+    "An engineering student with research interests in computers and human brain. I love building electronics and AI applications. On the side I build communities, mentor peers, and inspire young minds to explore and innovate.",
   summary:
     "Trying to comeup what to write here.",
   avatarUrl: "/me.jpg",
@@ -62,8 +62,8 @@ export const DATA = {
       company: "iBriz.ai",
       badges: [],
       href: "https://ibriz.ai/",
-      location: "Hong Kong",
-      title: "Co-Founder & Machine Learning Engineer",
+      location: "Nepal",
+      title: "consultant",
       logoUrl: "/ibriz.avif",
       start: "Mar 2024",
       end: "Jul 2024",

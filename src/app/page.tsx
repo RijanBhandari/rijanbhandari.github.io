@@ -102,10 +102,10 @@ export default function Page() {
       </section>
 
       <section id="tech-stack" className="mb-section-lg">
-        <TechStack delay={BLUR_FADE_DELAY * 21} />
+        <TechStack delay={BLUR_FADE_DELAY * 16} />
       </section>
 
-      <section id="projects" className="mb-section-lg">
+      {/* <section id="projects" className="mb-section-lg">
         <div className="space-y-content-lg">
           <BlurFade delay={BLUR_FADE_DELAY * 22}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
@@ -190,11 +190,11 @@ export default function Page() {
             </div>
           </BlurFade>
         </div>
-      </section>
+      </section> */}
 
 
 
-      <ContactOrbiting delay={BLUR_FADE_DELAY * 33} />
+      <ContactOrbiting delay={BLUR_FADE_DELAY * 15} />
     </main>
   );
 }
